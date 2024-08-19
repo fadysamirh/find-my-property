@@ -1,0 +1,35 @@
+.container {
+    border: 2px solid #edeeee;
+    border-radius: 13px;
+    overflow: hidden;
+    padding: 1.354vw;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.354vw;
+}
+
+.title {
+    font-size: 1.5vw;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        border: 2px solid #edeeee;
+        border-radius: 13px;
+        overflow: hidden;
+        padding: 3vw;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+    }
+
+    .title {
+        font-size: 3.5vw;
+        margin: 0;
+    }
+}

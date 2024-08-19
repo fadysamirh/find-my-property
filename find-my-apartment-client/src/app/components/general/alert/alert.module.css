@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    max-width:100%;
+    gap: 1vw;
+    padding-top: 5vw;
+
+}
+
+.alertImage {
+    width: 10vw;
+}
+
+.text {
+    font-size: 1.5vw;
+    color: #464c55;
+    margin: 0;
+}
+
+.button {
+    outline:0;
+    border: 0;
+    width: 10vw;
+    height: 3vw;
+    border-radius: 13px;
+}
+
+.buttonText {
+    font-size: 1.2vw;
+    color: black;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        max-width:100%;
+        gap: 5vw;
+        padding-top: 20vw;
+
+    }
+
+    .alertImage {
+        width: 40vw;
+    }
+
+    .text {
+        font-size: 5vw;
+        color: #464c55;
+        margin: 0;
+        text-align: center;
+    }
+
+    .button {
+        outline:0;
+        border: 0;
+        width: 30vw;
+        height: 10vw;
+        border-radius: 13px;
+    }
+
+    .buttonText {
+        font-size: 4vw;
+        color: black;
+        margin: 0;
+    }
+}

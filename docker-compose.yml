@@ -1,0 +1,40 @@
+
+services:
+  client:
+    build:
+      context: ./find-my-apartment-client
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000' # Expose Next.js dev server
+    volumes:
+      - ./find-my-apartment-client:/app
+    environment:
+      - NODE_ENV=development # Set environment variables as needed
+    command: npm run dev # Or 'yarn dev' if using Yarn
+    depends_on:
+      - server
+
+  server:
+    build:
+      context: ./find-my-apartment-server
+      dockerfile: Dockerfile
+    ports:
+      - '4000:4000' # Expose Node.js server
+    volumes:
+      - ./find-my-apartment-server:/app
+    environment:
+      - NODE_ENV=development
+      - MONGODB_URI=mongodb://mongo:27017/find-my-apartment
+      - SERVER_PORT=4000
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo:latest
+    ports:
+      - '27017:27017'
+    volumes:
+      - mongo-data:/data/db # Persist MongoDB data
+
+volumes:
+  mongo-data:

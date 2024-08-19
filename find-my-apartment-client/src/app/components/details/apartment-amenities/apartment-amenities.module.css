@@ -1,0 +1,42 @@
+.grid {
+    display: grid;
+    grid-gap: 0.8vw;
+    grid-template-columns: auto auto auto;
+}
+
+.gridItem {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 17vw;
+    padding: 0.7vw;
+}
+
+.text {
+    font-size: 0.8vw;
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .grid {
+        display: grid;
+        grid-gap: 1.5vw;
+        grid-template-columns: auto ;
+    }
+
+    .gridItem {
+        background-color: #f6f6f6;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        padding: 2vw;
+    }
+
+    .text {
+        font-size: 3vw;
+        margin: 0;
+    }
+}

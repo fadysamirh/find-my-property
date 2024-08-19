@@ -1,0 +1,252 @@
+{
+  "amenities": [
+    {
+      "_id": "66c0a928a4d1db616bc5bea4",
+      "name": "Swimming Pool",
+      "__v": 0
+    },
+    {
+      "_id": "66c0a935a4d1db616bc5beaa",
+      "name": "Parking",
+      "__v": 0
+    },
+    {
+      "_id": "66c0a93ba4d1db616bc5bead",
+      "name": "Wi-Fi",
+      "__v": 0
+    },
+    {
+      "_id": "66c0adb97e41fa049b2716e6",
+      "name": "Air Conditioning",
+      "__v": 0
+    },
+    {
+      "_id": "66c0adc07e41fa049b2716e9",
+      "name": "Balcony",
+      "__v": 0
+    },
+    {
+      "_id": "66c349fe164628235ae4b520",
+      "name": "Gym",
+      "__v": 0
+    }
+  ],
+  "apartments": [
+    {
+      "title": "Spacious 2 Bedroom Apartment in City Center",
+      "description": "This beautiful and bright 2 bedroom apartment is located in the heart of the city. Enjoy modern amenities and close proximity to shops, restaurants, and entertainment.",
+      "numberOfBedrooms": 2,
+      "numberOfBathrooms": 1,
+      "sizeInSquareMeters": "85",
+      "price": 1800,
+      "address": {
+        "street": "123 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "latitude": 40.7128,
+        "longitude": -74.0059
+      },
+      "imagesUrls": [
+        "https://i.ibb.co/hHZzWqp/1.png",
+        "https://i.ibb.co/0GJPD6N/2.png",
+        "https://i.ibb.co/crK0RTM/3.png",
+        "https://i.ibb.co/gTP82tx/4.png"
+      ],
+      "contactInfo": {
+        "name": "John Doe",
+        "email": "johndoe@rentals.com",
+        "phone": "01221668000"
+      },
+      "available": true,
+      "level": "2nd Floor",
+      "furnished": false,
+      "type": "Apartment",
+      "amenitiesIds": [
+        "66c349fe164628235ae4b520",
+        "66c0a935a4d1db616bc5beaa",
+        "66c0adb97e41fa049b2716e6"
+      ],
+      "listingType": "Rent",
+      "paymentOptions": ["Cash"],
+      "rentPaymentFrequency": "Daily"
+    },
+    {
+      "title": "Spacious 4 Bedroom House with Backyard",
+      "description": "Beautiful 4 bedroom house with a large backyard, perfect for families.",
+      "numberOfBedrooms": 4,
+      "numberOfBathrooms": 3,
+      "sizeInSquareMeters": "200",
+      "price": 3500000,
+      "address": {
+        "street": "123 Main Street",
+        "city": "Suburbia",
+        "state": "CA",
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "imagesUrls": [
+        "https://i.ibb.co/r5HdZz5/1.png",
+        "https://i.ibb.co/tpDQz3V/2.png",
+        "https://i.ibb.co/wYcFrsZ/3.png",
+        "https://i.ibb.co/Xkg923J/4.png"
+      ],
+      "contactInfo": {
+        "name": "John Doe",
+        "email": "johndoe@realestate.com",
+        "phone": "01221668002"
+      },
+      "available": true,
+      "level": "Ground Floor",
+      "paymentOptions": ["Cash", "Mortgage"],
+      "furnished": false,
+      "type": "House",
+      "amenitiesIds": [
+        "66c0a935a4d1db616bc5beaa",
+        "66c349fe164628235ae4b520",
+        "66c0a93ba4d1db616bc5bead",
+        "66c0adb97e41fa049b2716e6"
+      ],
+      "listingType": "Sale"
+    },
+    {
+      "title": "Spacious Duplex with Private Entrance",
+      "description": "Lower and upper level duplex with private entrance. Features modern kitchen and two balconies.",
+      "numberOfBedrooms": 3,
+      "numberOfBathrooms": 2,
+      "sizeInSquareMeters": "150",
+      "price": 2500,
+      "address": {
+        "street": "123 Main Street",
+        "city": "Anytown",
+        "state": "CA",
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "imagesUrls": [
+        "https://i.ibb.co/cQyt72R/1.png",
+        "https://i.ibb.co/BjCGn5S/2.png",
+        "https://i.ibb.co/XxzR7g3/3.png",
+        "https://i.ibb.co/4F43hYp/4.png"
+      ],
+      "contactInfo": {
+        "name": "John Doe",
+        "email": "johndoe@duplexrentals.com",
+        "phone": "01221668000"
+      },
+      "available": true,
+      "level": "Split Level",
+      "paymentOptions": ["Cash", "Visa"],
+      "furnished": false,
+      "type": "Duplex",
+      "amenitiesIds": ["66c0a928a4d1db616bc5bea4", "66c349fe164628235ae4b520"],
+      "listingType": "Rent",
+      "rentPaymentFrequency": "Weekly"
+    },
+    {
+      "title": "Single Room for Rent",
+      "description": "Furnished room available in shared apartment.",
+      "numberOfBedrooms": 1,
+      "numberOfBathrooms": 0,
+      "sizeInSquareMeters": "12",
+      "price": 500,
+      "address": {
+        "street": "123 Main Street",
+        "city": "Anytown",
+        "state": "CA",
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "imagesUrls": [
+        "https://i.ibb.co/dBVjV8F/1.png",
+        "https://i.ibb.co/Hpwb0zZ/2.png",
+        "https://i.ibb.co/59tsm7H/3.png",
+        "https://i.ibb.co/bHZCZ50/4.png"
+      ],
+      "contactInfo": {
+        "name": "John Doe",
+        "email": "johndoe@roomrentals.com",
+        "phone": "01221668000"
+      },
+      "available": true,
+      "level": "2nd Floor",
+      "paymentOptions": ["Cash", "Visa"],
+      "furnished": true,
+      "type": "Room",
+      "amenitiesIds": ["66c0a93ba4d1db616bc5bead"],
+      "listingType": "Rent",
+      "rentPaymentFrequency": "Monthly"
+    },
+    {
+      "title": "Cozy Studio Apartment in City Center",
+      "description": "Modern studio apartment with open floor plan and balcony.",
+      "numberOfBedrooms": 0,
+      "numberOfBathrooms": 1,
+      "sizeInSquareMeters": "35",
+      "price": 1200,
+      "address": {
+        "street": "123 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "latitude": 40.7128,
+        "longitude": -74.0059
+      },
+      "imagesUrls": [
+        "https://i.ibb.co/Zdg3z5D/1.png",
+        "https://i.ibb.co/Ybgxrfm/2.png",
+        "https://i.ibb.co/7pp5KM1/3.png",
+        "https://i.ibb.co/BLy3W1F/4.png"
+      ],
+      "contactInfo": {
+        "name": "John Doe",
+        "email": "johndoe@studios.com",
+        "phone": "01221668000"
+      },
+      "available": true,
+      "level": "3rd Floor",
+      "paymentOptions": ["Cash", "Visa"],
+      "furnished": true,
+      "type": "Studio",
+      "amenitiesIds": ["66c0adc07e41fa049b2716e9", "66c0adb97e41fa049b2716e6"],
+      "listingType": "Rent",
+      "rentPaymentFrequency": "Monthly"
+    },
+    {
+      "title": "Beautiful Villa in Cairo",
+      "description": "This stunning villa offers spacious living and a private oasis in the heart of Cairo.",
+      "numberOfBedrooms": 4,
+      "numberOfBathrooms": 3.5,
+      "sizeInSquareMeters": "300",
+      "price": 5000,
+      "address": {
+        "street": "123 Main Street",
+        "city": "Cairo",
+        "state": "Cairo Governorate",
+        "latitude": 30.0626,
+        "longitude": 31.2497
+      },
+      "imagesUrls": [
+        "https://i.ibb.co/GpRzkBf/1.png",
+        "https://i.ibb.co/4t0DYTS/2.png",
+        "https://i.ibb.co/q7jQqXQ/3.png",
+        "https://i.ibb.co/84SRpWL/4.png"
+      ],
+      "contactInfo": {
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "phone": "01221668000"
+      },
+      "available": true,
+      "type": "Villa",
+      "listingType": "Sale",
+      "amenitiesIds": [
+        "66c0a928a4d1db616bc5bea4",
+        "66c349fe164628235ae4b520",
+        "66c0a935a4d1db616bc5beaa",
+        "66c0a93ba4d1db616bc5bead",
+        "66c0adb97e41fa049b2716e6",
+        "66c0adc07e41fa049b2716e9"
+      ],
+      "paymentOptions": ["Cash", "Mortgage"]
+    }
+  ]
+}

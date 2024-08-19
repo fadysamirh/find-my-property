@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.text {
+    font-size: 0.8vw;
+}
+
+.centeredColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .text {
+        font-size: 3vw;
+    }
+}
