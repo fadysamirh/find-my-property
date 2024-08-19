@@ -8,6 +8,7 @@ services:
       - '3000:3000' # Expose Next.js dev server
     volumes:
       - ./find-my-apartment-client:/app
+      - ./find-my-apartment-client/node_modules
     environment:
       - NODE_ENV=development # Set environment variables as needed
     command: npm run dev # Or 'yarn dev' if using Yarn
