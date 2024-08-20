@@ -18,8 +18,8 @@ export const validateCreateApartment = (req: Request, res: Response, next: NextF
             street: Joi.string().required(),
             city: Joi.string().required(),
             state: Joi.string().required(),
-            latitude: Joi.number().required(),
-            longitude: Joi.number().required(),
+            latitude: Joi.number(),
+            longitude: Joi.number(),
         }).required(),
         imagesUrls: Joi.array().items(Joi.string().uri()).min(1).required(),
         contactInfo: Joi.object({
