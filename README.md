@@ -1,29 +1,34 @@
-## General
-This project leverages nextjs (typescript), nodejs (typescript) and docker to create
-website that lists apartments for sale or rent.
+# Find My Apartment
 
-The client is located in the find-my-apartment-client directory and the server is located in the find-my-apartment-server directory.
-The client runs on port 3000 and the server runs on port 4000.
+This project is a full-stack web application built with Next.js (TypeScript), Node.js (TypeScript), and Docker, designed to help users find apartments for sale or rent.
 
-The server has populate method that populates the database with some data that is contained in data directory in populate.ts file.
+## Project Structure
 
-The data is contained in the data directory in dummy-data.json file. The data is in json format. The data is loaded into the database when the database starts.
+- **Client**: Located in the `find-my-apartment-client` directory, the client is a Next.js application running on port 3000.
+- **Server**: Located in the `find-my-apartment-server` directory, the server is a Node.js application running on port 4000.
 
-## Client Features:
-- [x] User can view a list of apartments
-- [x] User can view details of an apartment
+## Data Population
 
-## Server Features:
-- [x] Server can create amenities
-- [x] Server can edit amenities
-- [x] Server can delete amenities
-- [x] Server can list amenities
-- [x] Server can list apartments
-- [x] Server can get details of an apartment
-- [x] Server can create an apartment
+The server includes a `populate` method that initializes the database with predefined data. This data is stored in the `data` directory within the `dummy-data.json` file and is automatically loaded into the database when it starts.
 
-To run the project, you will need to have docker installed on your machine 
-and run 
-```
+## Features
+
+### Client
+- **View Apartment Listings**: Users can browse a list of available apartments.
+- **View Apartment Details**: Users can view detailed information about a specific apartment.
+
+### Server
+- **Manage Amenities**:
+    - Create, edit, and delete amenities.
+    - List available amenities.
+- **Manage Apartments**:
+    - List all apartments.
+    - Get details of a specific apartment.
+    - Create new apartment listings.
+
+## Getting Started
+
+To run this project, ensure Docker is installed on your machine. Once Docker is set up, you can start the application by running the following command in your terminal:
+
+```bash
 docker-compose up
-```
