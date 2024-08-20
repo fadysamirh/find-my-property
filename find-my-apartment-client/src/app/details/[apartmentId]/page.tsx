@@ -58,7 +58,7 @@ export default function DetailsPage() {
 
     return (
         <div>
-            <AppBarComponent/>
+            <AppBarComponent hasBackButton={true}/>
             {
                 loading ? <LoadingComponent/> : hasError ?
                     <AlertComponent callback={fetchApartmentDetails}/> : apartment ?

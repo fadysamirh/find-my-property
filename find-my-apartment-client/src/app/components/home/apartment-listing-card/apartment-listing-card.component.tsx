@@ -30,20 +30,20 @@ export default function ApartmentListingCardComponent({apartment}: ApartmentList
                 <p className={styles.description}>{apartment.description}</p>
                 <span className={styles.detailsContainer}>
                     <span className={styles.detailsRow}>
-                        <KingBedOutlinedIcon fontSize={"medium"}/>
+                        <KingBedOutlinedIcon sx={{fontSize: { xs: 20, sm: 20, md: 20, lg: 26 } }}/>
                         <p className={styles.details}>{apartment.numberOfBedrooms}</p>
                     </span>
                     <span className={styles.detailsRow}>
-                        <ShowerOutlinedIcon fontSize={"medium"}/>
+                        <ShowerOutlinedIcon sx={{fontSize: { xs: 20, sm: 20, md: 20, lg: 26 } }}/>
                         <p className={styles.details}>{apartment.numberOfBathrooms}</p>
                     </span>
                     <span className={styles.detailsRow}>
-                        <CalendarViewMonthOutlinedIcon fontSize={"medium"}/>
+                        <CalendarViewMonthOutlinedIcon sx={{fontSize: { xs: 20, sm: 20, md: 20, lg: 26 } }}/>
                         <p className={styles.details}>{apartment.sizeInSquareMeters} SQM</p>
                     </span>
                 </span>
                 <span className={styles.detailsRow}>
-                        <FmdGoodOutlinedIcon fontSize={"small"}/>
+                        <FmdGoodOutlinedIcon sx={{fontSize: { xs: 20, sm: 20, md: 20, lg: 26 } }}/>
                     <p className={styles.address}>{apartment.address.street}, {apartment.address.city}, {apartment.address.state}</p>
                 </span>
             </div>

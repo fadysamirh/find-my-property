@@ -4,6 +4,7 @@
     border-bottom: 2px solid #edeeee;
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
 .appbarLogo {
@@ -14,8 +15,34 @@
     padding-bottom: 0.5vw;
 }
 
+.backButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4vw;
+    height: 2vw;
+    cursor: pointer;
+}
+
 @media (max-width: 768px) {
     .appbarLogo {
         width: 30vw;
+    }
+
+    .backButton {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8vw;
+        height: 6vw;
+        cursor: pointer;
     }
 }

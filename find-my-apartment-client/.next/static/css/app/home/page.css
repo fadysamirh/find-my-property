@@ -9,10 +9,11 @@
     border-radius: 13px;
     box-shadow: 8px 8px 16px 0 #edeeee;
     width: 65vw;
-    height: 9vw;
+    height: 11vw;
     padding: 0.5vw;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 }
 
 .apartment-listing-card_img__aIPIe {
@@ -381,6 +382,7 @@
     border-bottom: 2px solid #edeeee;
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
 .app-bar_appbarLogo__BJEb1 {
@@ -391,9 +393,35 @@
     padding-bottom: 0.5vw;
 }
 
+.app-bar_backButton__68_f_ {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4vw;
+    height: 2vw;
+    cursor: pointer;
+}
+
 @media (max-width: 768px) {
     .app-bar_appbarLogo__BJEb1 {
         width: 30vw;
+    }
+
+    .app-bar_backButton__68_f_ {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8vw;
+        height: 6vw;
+        cursor: pointer;
     }
 }
 

@@ -1,10 +1,10 @@
 {
   "pages": {
-    "/details/[apartmentId]/page": [
+    "/home/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/details/[apartmentId]/page.css",
-      "static/chunks/app/details/[apartmentId]/page.js"
+      "static/css/app/home/page.css",
+      "static/chunks/app/home/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -12,11 +12,11 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/home/page": [
+    "/details/[apartmentId]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/home/page.css",
-      "static/chunks/app/home/page.js"
+      "static/css/app/details/[apartmentId]/page.css",
+      "static/chunks/app/details/[apartmentId]/page.js"
     ]
   }
 }

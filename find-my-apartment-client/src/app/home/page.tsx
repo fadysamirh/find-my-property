@@ -51,7 +51,7 @@ export default function HomePage() {
 
     return (
         <div>
-            <AppBarComponent/>
+            <AppBarComponent hasBackButton={false}/>
             {loading ? <LoadingComponent/> : hasError ? <AlertComponent callback={fetchApartments}/> :
                 <div className={styles.container}>
                     {apartments.map((apartment: ApartmentListingModel, index: number) => (
